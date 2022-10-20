@@ -22,5 +22,4 @@ void print_most_numbers(void)
 	} while (var < 10);
 
 	_putchar('\n');
-	return (0);
 }
