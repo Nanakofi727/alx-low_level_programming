@@ -1,23 +1,46 @@
 #include "main.h"
 
 /**
- * more_numbers - nmber fact
- * Print 10 times the numbe 14
- * Return: no return
+ * print - print variable recursively
+ * @var: var
+ */
+void print(int var)
+{
+	if (var < 0)
+
+	{
+		_putchar('-');
+		var = -var;
+	}
+
+	if (var / 10)
+		print(var / 10);
+	_putchar(var % 10 + '0');
+}
+
+/**
+ * more_numbers - print numbers up to 14
  */
 
 void more_numbers(void)
 {
-	int i, j;
+	int jj = 0;
 
-	for (i = 1; i <= 10; i++)
+	while (jj < 10)
 	{
-		for (j = 0; j <= 14; j++)
-		{
-			if (j >= 10)
-				_putchar('1');
-				_putchar(j % 10 + '0');
-		}
+		int ii = 0;
+
+		do {
+			if (ii < 10)
+				print(ii);
+			else
+			{
+				print(ii);
+			}
+
+		} while (ii < 15);
+
+		jj++;
 		_putchar('\n');
 	}
 }
