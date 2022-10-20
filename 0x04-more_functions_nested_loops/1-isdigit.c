@@ -7,7 +7,7 @@
  * Return: 1 if var is digit, else 0
  */
 
-int _isdigit(int var);
+int _isdigit(int var)
 {
 	if (isdigit(var))
 		return (1);
