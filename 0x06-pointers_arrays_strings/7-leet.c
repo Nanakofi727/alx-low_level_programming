@@ -7,16 +7,16 @@
  */
 char *leet(char *s)
 {
-	int y, z;
+	int i, j;
 	char a[] = "aAeEoOtTlL";
 	char b[] = "4433007711";
 
-	for (y = 0; *(s + y); y++)
+	for (i = 0; *(s + i); i++)
 	{
-		for (z = 0; z <= 9; z++)
+		for (j = 0; j <= 9; j++)
 		{
-			if (a[z] == s[y])
-				s[y] = b[z]
+			if (a[j] == s[i])
+				s[i] = b[j];
 		}
 	}
 	return (s);
