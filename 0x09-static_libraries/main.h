@@ -2,12 +2,6 @@
 #define MAIN_H
 #include <stddef.h>
 
-/**
- * file: main.h
- * Auth: Derrick
- * Desc: Header file containing all prototypes
- */
-
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
