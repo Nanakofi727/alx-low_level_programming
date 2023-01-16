@@ -1,2 +1,2 @@
-0x18. C - Dynamic libraries
-C
+New Directory
+Working with Dynamic Libraries
